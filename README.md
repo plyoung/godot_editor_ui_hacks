@@ -8,4 +8,4 @@ The new options can be found by going menu: `Editor > Editor Settings` and scrol
 
 There are options to hide/show the toolbars of the Scene Tree and File System Docks. Usefull when you need some more space on a low resolution screen and do not use these toolbars.
 
-![sample video](/img/sample_1.mp4)
+![sample video](/img/000.gif)

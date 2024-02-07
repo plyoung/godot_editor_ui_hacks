@@ -6,7 +6,7 @@ Godot editor addon which adds new editor settings to change options related to t
 
 Copy folder in addons to the addons folder in your Godot project's folder.
 
-Note: it makes assumptions about node locations so might not work in all Godot version. tested in:
+Note: it makes assumptions about node locations so might not work in all Godot version. Tested in:
 - 4.2.1
 
 **Features & Use**

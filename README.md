@@ -19,7 +19,7 @@ There are options to hide/show the toolbars of the Scene Tree and File System Do
 
 ## Scenes Menu
 
-A new scenes menu popup will be added in the scenes editor tab bar next to the "Distraction Free Mode" button to the right-hand when you enable it in settings. It gives a quick way to open frequently used scenes.
+A new scenes menu popup will be added in the scenes editor tab bar, next to the "Distraction Free Mode" button to the right-hand side, when you enable it in settings. It gives a quick way to open frequently used scenes.
 
 Use "Setup" option to point to scenes or paths containing scenes and the menu will be updated with these.
 

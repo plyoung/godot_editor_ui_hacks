@@ -201,7 +201,7 @@ func _refresh_scenes_menubutton_popup() -> void:
 		for file_idx in file_paths.size():
 			idx += 1
 			_scene_paths.append(file_paths[file_idx])
-			submenu.add_item(file_paths[file_idx], idx)
+			submenu.add_item(file_paths[file_idx].get_file(), idx)
 
 
 func _on_scenes_menubutton_pressed(id: int) -> void:

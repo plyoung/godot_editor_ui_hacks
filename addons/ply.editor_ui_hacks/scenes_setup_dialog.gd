@@ -84,12 +84,14 @@ func _on_add_path_button() -> void:
 func _on_dir_selected(path: String) -> void:
 	_paths.append(path)
 	ProjectSettings.set_setting(PlyEditorHackz.menuscenes_settings_key, _paths)
+	ProjectSettings.save()
 	_set_row(_paths.size() - 1)
 
 
 func _on_file_selected(path: String) -> void:
 	_paths.append(path)
 	ProjectSettings.set_setting(PlyEditorHackz.menuscenes_settings_key, _paths)
+	ProjectSettings.save()
 	_set_row(_paths.size() - 1)
 
 
@@ -97,6 +99,7 @@ func _on_row_remove_button(row: TreeItem, column: int, id: int, mouseButtonIndex
 	var idx := row.get_metadata(0) as int
 	_paths.remove_at(idx)
 	ProjectSettings.set_setting(PlyEditorHackz.menuscenes_settings_key, _paths)
+	ProjectSettings.save()
 	_refresh_view()
 
 
